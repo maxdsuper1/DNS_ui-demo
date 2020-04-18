@@ -8,19 +8,20 @@ import pages.Home;
 
 import java.lang.annotation.Annotation;
 
-public class Smoke extends Config{
+public class SmokeTest extends Config{
+    Home home = new Home();
 
-    @Test
+  /*  @Test
       void registration(){
         //Configuration.startMaximized = true;
-        Home home = new Home();
+        //Home home = new Home();
         home.url();
         home.clickregistration();
-    }
+    }*/
 
     @Test
      void positiveSearch(){
-        Home home = new Home();
+        //Home home = new Home();
         home.url();
         home.search("мониторы");
     }
