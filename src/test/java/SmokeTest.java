@@ -21,7 +21,6 @@ public class SmokeTest extends Config{
 
     @Test
      void positiveSearch(){
-        //Home home = new Home();
         home.url();
         home.search("мониторы");
     }
